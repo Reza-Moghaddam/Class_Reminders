@@ -1,0 +1,15 @@
+name = "class-reminder-bot"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# اجرای خودکار هر روز ساعت ۲۱:۰۰ به وقت تهران (UTC+3:30)
+# ۲۱:۰۰ تهران = ۱۷:۳۰ UTC  →  اگر ساعت دیگری می‌خواهید، این عدد را تغییر دهید.
+[triggers]
+crons = ["30 17 * * *"]
+
+# مقادیر حساس (توکن ربات، chat id، و ...) را با دستور زیر تنظیم کنید،
+# نه با نوشتن مستقیم در این فایل:
+#   npx wrangler secret put TELEGRAM_BOT_TOKEN
+#   npx wrangler secret put TELEGRAM_CHAT_ID
+#   npx wrangler secret put TEST_SECRET
+#   npx wrangler secret put REFERENCE_DATE
