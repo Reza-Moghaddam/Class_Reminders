@@ -54,8 +54,8 @@
 ### نصب
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/<your-username>/Class_Reminders.git
+cd Class_Reminders
 npm install -g wrangler
 wrangler login
 ```
