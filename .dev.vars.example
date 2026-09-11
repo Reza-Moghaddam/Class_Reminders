@@ -1,0 +1,5 @@
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+TELEGRAM_CHAT_ID=-100xxxxxxxxxx
+TELEGRAM_THREAD_ID=your_topic_id_here
+TEST_SECRET=your_test_secret_here
+REFERENCE_DATE=2026-01-01

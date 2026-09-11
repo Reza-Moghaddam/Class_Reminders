@@ -1,0 +1,14 @@
+{
+  "name": "class-reminder-bot",
+  "version": "1.0.0",
+  "description": "ربات تلگرامی یادآوری کلاس‌های دانشگاه روی Cloudflare Workers",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.131.0"
+  }
+}
